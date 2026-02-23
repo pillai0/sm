@@ -5,9 +5,7 @@
 Objective: To understand and visualize the Probability Density Function (PDF) and Cumulative
 Distribution Function (CDF) for given parameters of Uniform and Exponential distributions.
 
-r codes:-
-
- # for uniform distribution 
+  for uniform distribution 
 codes:-
 
 # Uniform Distribution Parameters
