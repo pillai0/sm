@@ -1,6 +1,6 @@
 # sm
 
-# Practical no:- 1
+# Practical no:- 1 (only codes)
    Aim: Plotting PDF and CDF for Uniform and Exponential Distributions
 Objective: To understand and visualize the Probability Density Function (PDF) and Cumulative
 Distribution Function (CDF) for given parameters of Uniform and Exponential distributions.
@@ -55,7 +55,7 @@ plot(x, cdf_exp, type = "l", lwd = 2, col = "red",
      xlab = "x", ylab = "Probability")
 
 
-# Practical no:- 3
+# Practical no:- 2 (excel and R)
 
 Aim: Computing Mean, Variance, and Median (Uniform and Exponential)
 Objective : To compute and compare theoretical and simulated (Excel-generated) Mean, Variance,
@@ -148,8 +148,8 @@ sim_mean_e
 sim_var_e
 sim_median_e
 
-# Practical no:- 3
-Aim: Plotting and Interpreting Normal Distribution
+# Practical no:- 3 (only codes)
+Aim: Plotting and Interpreting Normal Distribution 
 
 r codes:-
 
@@ -182,7 +182,7 @@ curve(dnorm(x),
 
 abline(v = 0, col = "blue", lwd = 2)
 
-# Practical no:- 4
+# Practical no:- 4 (excel and R)
 Aim: Solving a real-life problem using the Normal distribution
 
 A class has exam marks that are approximately normally distributed with mean= 70
@@ -220,7 +220,7 @@ prob_more_than_85
 
 cutoff_top_10 <- qnorm(0.90, mean = mu, sd = sigma)
 
-# Practical no:-5
+# Practical no:-5 (only codes)
 Aim: Simulation of Sampling Distribution of Sample Mean and Proportion
 
 a. Sampling Distribution of Sample Mean
@@ -262,7 +262,7 @@ hist(sample_props,
 
 mean(sample_props)
 
-# Practical no:- 6
+# Practical no:- 6 (only codes)
 
 Aim: Computing Bias and Standard Error
 
@@ -288,7 +288,7 @@ print(bias)
 se <- sd(estimates)
 print(se)
 
-# Practical no:- 7
+# Practical no:- 7 (only codes)
 Aim: To verify the Central Limit Theorem by drawing samples from a non-normal distribution and
 checking the normality of sample means.
 
@@ -306,7 +306,7 @@ hist(sample_means,
      col = "lightblue",
      border = "black")
 
-# Practical no:-8
+# Practical no:-8 (excel and R)
 Aim: To calculate covariance and correlation between two variables.
 
 #Using Excel
@@ -333,7 +333,7 @@ cov(x, y)
 # Correlation
 cor(x, y)
 
-# Practical no:-9 Confidence Interval for Single Mean / Proportion
+# Practical no:-9 Confidence Interval for Single Mean / Proportion (excel and R)
 Aim : To construct a confidence interval for a single population mean using Excel and R.
 
 Sample mean
@@ -359,7 +359,7 @@ upper <- mean + z*(sd/sqrt(n))
 print(lower)
 print(upper)
 
-# Practical no:- 10 Confidence Interval for Difference in Means
+# Practical no:- 10 Confidence Interval for Difference in Means (excel and R)
 
 Aim : To construct a confidence interval for the difference between two population means using Excel and R.
 
